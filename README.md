@@ -5,11 +5,11 @@ This project predicts the likelihood of heart disease using **Machine Learning**
 It includes data exploration, feature engineering, model training, and evaluation — all in a single Jupyter Notebook.  
 A simple Streamlit app is also included for interactive predictions.
 
-heart-disease-prediction/
-      ├─ notebooks/
-      │ └─ heart_disease_prediction_full.ipynb # Complete workflow: EDA, feature engineering, modeling
-      ├─ requirements.txt # Python dependencies
-      ├─ README.md # Project documentation
+      heart-disease-prediction/
+            ├─ notebooks/
+            │ └─ heart_disease_prediction_full.ipynb # Complete workflow: EDA, feature engineering, modeling
+            ├─ requirements.txt # Python dependencies
+            ├─ README.md # Project documentation
 
 This notebook includes:
 
