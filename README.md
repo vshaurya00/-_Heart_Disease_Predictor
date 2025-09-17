@@ -6,10 +6,10 @@ It includes data exploration, feature engineering, model training, and evaluatio
 A simple Streamlit app is also included for interactive predictions.
 
 heart-disease-prediction/
-  ├─ notebooks/
-  │ └─ heart_disease_prediction_full.ipynb # Complete workflow: EDA, feature engineering, modeling
-  ├─ requirements.txt # Python dependencies
-  ├─ README.md # Project documentation
+      ├─ notebooks/
+      │ └─ heart_disease_prediction_full.ipynb # Complete workflow: EDA, feature engineering, modeling
+      ├─ requirements.txt # Python dependencies
+      ├─ README.md # Project documentation
 
 This notebook includes:
 
