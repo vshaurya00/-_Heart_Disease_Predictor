@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load(r'C:\Users\vshau\OneDrive\Desktop\vs\Heart_Disease_prediction\SVM_heart.pkl')
-scaler = joblib.load(r'C:\Users\vshau\OneDrive\Desktop\vs\Heart_Disease_prediction\scaler.pkl')
-columns = joblib.load(r'C:\Users\vshau\OneDrive\Desktop\vs\Heart_Disease_prediction\columns.pkl')
+model = joblib.load(r'models\SVM_heart.pkl')
+scaler = joblib.load(r'models\scaler.pkl')
+columns = joblib.load(r'models\columns.pkl')
 
 st.title('Heart Stroke Prediction by Shaurya')
 st.markdown('Provide the following details')\
@@ -53,4 +53,5 @@ if st.button('Predict'):
     if prediction == 1:
         st.error('Warning, Heart Disease predicted')
     else:
+
         st.success('No disease')
